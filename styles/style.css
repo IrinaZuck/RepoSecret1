@@ -1,0 +1,215 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+body
+{
+	background-color: #B9A892;
+}
+header
+{
+	background-image: url('../images/header.jpg');
+	background-size: 100% 100%;
+	width: 100vw;
+	height: 150px;
+	position: absolute;
+}
+h1
+{
+	background-color: rgba(60, 60, 60, 0.7);
+	font-size: 32pt;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 50px;
+}
+.map
+{
+	margin-top: 150px;
+	height: 500px;
+	width: 50vw;
+	background-image: url('../images/map.jpg');
+	background-size: 100% 100%;
+	right: 0;
+    position: absolute;
+}
+.result
+{
+	margin-top: 150px;
+	height: 500px;
+	width: 50vw;
+	background-color: dimgray;
+	background-size: 100% 100%;
+    position: absolute;
+}
+.result_poligon
+{
+	margin-top: 150px;
+	height: 500px;
+	width: 50vw;
+	background-color: #C5F474;
+	background-size: 100% 100%;
+    position: absolute;
+    display: none;
+}
+.result_circle
+{
+	margin-top: 150px;
+	height: 500px;
+	width: 50vw;
+	background-color: #A7E0DB;
+	background-size: 100% 100%;
+    position: absolute;
+    display: none;
+}
+.map_selection
+{
+	background-color: rgba(60, 60, 60, 0.7);
+	font-size: 32pt;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 50px;
+}
+.text
+{
+	background-color: rgba(60, 60, 60, 0.7);
+	font-size: 20pt;
+	color: #ffffff;
+	text-align: justify;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 50px;
+}
+.auto
+{
+	width: 25vw;
+	height: 25vh;
+	background-size: 100% 100%;
+	background-image: url('../images/auto.jpg');
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 2.5vh;
+}
+.fontan
+{
+	width: 25vw;
+	height: 25vh;
+	background-size: 100% 100%;
+	background-image: url('../images/fontan.jpg');
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 2.5vh;
+}
+.poligon
+{
+	margin-left: 8vw;
+	margin-top: 13vh;
+	width: 11vw;
+	height: 15vh;
+	background-color: #aaaaaa55;
+	transform: rotate(-15deg);
+	position: absolute;
+}
+.poligon:hover
+{
+	margin-left: 8vw;
+	margin-top: 13vh;
+	width: 11vw;
+	height: 15vh;
+	background-color: #aaaaaaaa;
+	transform: rotate(-15deg);
+	position: absolute;
+}
+.poligon:active
+{
+	margin-left: 8vw;
+	margin-top: 13vh;
+	width: 11vw;
+	height: 15vh;
+	background-color: #aaaaaadd;
+	transform: rotate(-15deg);
+	position: absolute;
+}
+.circle 
+{
+	margin-left: 33vw;
+	margin-top: 18vh;
+	width: 7vw;
+	height: 12vh;
+	background-color: #40A48B77;
+	border-radius: 50%;
+}
+.circle:hover
+{
+	margin-left: 33vw;
+	margin-top: 18vh;
+	width: 7vw;
+	height: 12vh;
+	background-color: #40A48Baa;
+	border-radius: 50%;
+}
+.circle:active
+{
+	margin-left: 33vw;
+	margin-top: 18vh;
+	width: 7vw;
+	height: 12vh;
+	background-color: #40A48Bdd;
+	border-radius: 50%;
+}
+.images_text
+{
+	width: 100vw;
+	height: 7.5vh;
+	background-color: #000000;
+	top: 650px;
+	display: table;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+.black_line
+{
+	color: #fff;
+	font-size: 32pt;
+    line-height: normal;
+    vertical-align: middle;
+    display: table-cell;
+}
+.picktures
+{
+	width: 100vw;
+	height: 50vh;
+	background-image: url('../images/minecraft.jpg');
+	background-size: 100% 100%;
+    position: relative;
+    top: 650px;
+}
+.picktures_video
+{
+	width: 100vw;
+	height: 50vh;
+	background-image: url('../images/saves.jpg');
+	background-size: 100% 100%;
+    position: relative;
+    top: 650px;
+}
+.video
+{
+width: 512px;
+
+ margin: 0 auto;
+}
+iframe
+{
+margin-top: 75px;
+}

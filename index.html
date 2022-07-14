@@ -1,0 +1,84 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/slider.css">
+	<title>Астралябния</title>
+</head>
+<body>
+<header>
+	<h1>
+	Карта Астралябнии
+	</h1>
+</header>
+<div id="result" class="result">
+	<h2 class="map_selection">
+	Выбор элемента карты
+	</h2>
+	<div class="text" >
+	Нажмите на любой элемент, чтобы тут увидеть описание!
+	</br>
+	</br>
+	Данная карта является интерактивной и расскажет о волшебном городе!
+	</div>
+</div>
+<div id="result_poligon" class="result_poligon">
+	<h2 class="map_selection">
+	Автосалон
+	</h2>
+	<div class="text" >
+	Данный автосалон вас обслужит качественно и в короткие сроки!
+	</div>
+	<div class="auto"></div>
+</div>
+<div id="result_circle" class="result_circle">
+	<h2 class="map_selection">
+	Городской фонтан
+	</h2>
+	<div class="text" >
+	Данный фонтан вас наполнит позитивом! Это наша главная достопримечательность!
+	</div>
+	<div class="fontan"></div>
+</div>
+<div class="map">
+<div id="poligon" class="poligon" onclick="
+(document.getElementById('result').style.display='none'),
+(document.getElementById('result_circle').style.display='none'),
+(document.getElementById('result_poligon').style.display='block')">
+</div>
+<div id="circle" class="circle" onclick="
+(document.getElementById('result_poligon').style.display='none'),
+(document.getElementById('result').style.display='none'),
+(document.getElementById('result_circle').style.display='block')">
+</div>
+</div>
+<div class="images_text">
+<h2 class="black_line">Ниже идут самые интересные части города!</h2>
+</div>
+<div class="picktures">
+<div class="slider">
+  <a href="#slide-1">1</a>
+  <a href="#slide-2">2</a>
+  <a href="#slide-3">3</a>
+  <a href="#slide-4">4</a>
+  <a href="#slide-5">5</a>
+  <div class="slides">
+    <div id="slide-1"></div>
+    <div id="slide-2"></div>
+    <div id="slide-3"></div>
+    <div id="slide-4"></div>
+    <div id="slide-5"></div>
+  </div>
+</div>
+</div>
+<div class="images_text">
+<h2 class="black_line">Посмотрите про обновления майнкрафта!</h2>
+</div>
+<div class="picktures_video">
+	<div class="video">
+	<iframe width="512" height="288" src="https://www.youtube.com/embed/9Z7QTv_UlO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</body>
+</html>
